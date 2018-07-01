@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "329295481420",
+    "firebase_url": "https://joun-1fd1b.firebaseio.com",
+    "project_id": "joun-1fd1b",
+    "storage_bucket": "joun-1fd1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329295481420:android:e40e69f7701d2c64",
+        "android_client_info": {
+          "package_name": "com.codeislife.joun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329295481420-oj37csiv0o9hqvm8lt49hmfhc9ukge2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeislife.joun",
+            "certificate_hash": "d74e9256ae7850492c80e293ea36fc430a233e0a"
+          }
+        },
+        {
+          "client_id": "329295481420-jvtfg91jkdau6nrnmsohdfeq6c2o429l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhQEJ5XTu8xRaGLEHxoGoBfRpIGPKtjM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329295481420-jvtfg91jkdau6nrnmsohdfeq6c2o429l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

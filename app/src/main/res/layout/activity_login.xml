@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/EmailLogin"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/black"
+            android:text="example@gmail.com"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24dp"
+            android:inputType="textEmailAddress"
+            app:met_baseColor="@android:color/holo_green_dark"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="20"
+            app:met_primaryColor="@android:color/holo_green_dark"
+            app:met_singleLineEllipsis="true"
+
+
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Passsword"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/black"
+            android:text="834623hf"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24dp"
+            android:inputType="textPassword"
+            app:met_baseColor="@android:color/holo_green_dark"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/holo_green_dark"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <Button
+            android:id="@+id/BtnLogin"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_green_dark"
+            />
+
+        <Button
+            android:id="@+id/LoginSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/ToSignUp"
+            android:textColor="@android:color/white" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnGoogleSignIn"
+            android:layout_width="220dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/signin_with_google"
+            app:colorScheme="auto"
+            android:textAllCaps="true"
+            app:layout_constraintStart_toStartOf="@+id/btnSignInWithEmailAndPassword"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignInWithEmailAndPassword" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+    <!--app:shadowEnabled="true"-->
+    <!--app:shadowHeight="5dp"-->
+    <!--app:shadowColor="@android:color/white"-->
+    <!--app:buttonColor="@android:color/holo_green_dark"-->
+    <!--app:cornerRadius="4dp"-->
